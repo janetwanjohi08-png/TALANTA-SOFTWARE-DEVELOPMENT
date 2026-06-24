@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Grade System - Add Student</title>
+</head>
+<body id="top">
+     <div>
+    <ul>
+   <li><a href="/HTML/ASSIGNMENTS/PROJECT/Student Grade System/Index.html"><b>Dashboard - Home Page</b></a></li>
+   <li><a href="/HTML/ASSIGNMENTS/PROJECT/Student Grade System/Students.html">Student List with Tables</a></li>
+   <li><a href="/HTML/ASSIGNMENTS/PROJECT/Student Grade System/Addstudents.html">Add Student Form</a></li>
+   <li><a href="/HTML/ASSIGNMENTS/PROJECT/Student Grade System/Courses.html">Course Management with Lists</a></li>
+    </ul>
+    </div>
+    <h1>Register New Student</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <b><label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter full name" required></b>
+    </br>
+</br>
+<b><label for="date of birth">Date of Birth:</label>
+<input type="date" name="dob" required></b>
+ </br>
+</br>
+<b><label for="email">Email:</label>
+<input type="email" name="email" placeholder="student@example.com" required></b>
+ </br>
+</br>
+<label for="phone">Phone:</label>
+<input type="tel" name="phone" placeholder="+1 234 567 8900">
+ </br>
+</br>
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" value="on">Male
+<input type="radio" name="gender" value="on">Female
+</fieldset>
+ </br>
+</br>
+<fieldset>
+    <legend>Academic Information</legend>
+<label for="Course">Course:</label>
+<select name="dropdown">
+    <option name="Select grade" selected>Select Subject</option>
+    <option name="Math 101">Math 101</option>
+    <option name="Science 101">Science 101</option>
+    <option name="History 101">History 101</option>
+    <option name="Art 101">Art 101</option>
+    <option name="English 101">English 101</option>
+</select>
+</br>
+</br>
+<label for="grade">Grade:</label>
+<input type="number" name="grade" min="0" max="100" placeholder="0-100" value="Select grade">
+</br>
+</br>
+<label for="Enrollment date">Enrollment date:</label>
+<input type="date" name="Enrollment date">
+</fieldset>
+    </br>
+</br>
+<fieldset>
+    <legend>Additional Information</legend>
+<legend>Address:</legend>
+<textarea name="address" rows="3" cols="40" placeholder="Enter address"></textarea>
+</br>
+</br>
+<label for="student photo">Student Photo</label>
+<input type="file" name="photo" accept="image/">
+</br>
+</br>
+<label for="guardian">Guardian Name:</label>
+<input type="text" name="guardian" placeholder="Enter guardian name">
+</br>
+</br>
+<label for="guardian phone">Guardian Contact:</label>
+<input type="tel" name="guardian phone" placeholder="enter phonenumber">
+</br>
+</br>
+<legend>Special needs:</legend>
+<textarea name="special needs" placeholder="Enter if any"></textarea>
+</fieldset>
+</br>
+</br>
+<fieldset>
+    <legend>Terms and Preferences</legend>
+<label for="agreement">Agreement:</label>
+</br>
+<b><input type="checkbox" name="agreement" value="on" required>I agree to the terms and conditions</b>
+</br>
+</br>
+<label for="newsletter">Newsletter:</label>
+</br>
+<input type="checkbox" name="newsletter" value="on">Subscribe to newsletter
+</fieldset>
+</br>
+</br>
+<input type="submit" name="Submit" value="Register student">
+<input type="reset" name="Reset" value="Clear form">
+</br>
+</br> 
+<h3>Required Document</h3>
+<ul>
+    <li>Two copies of your birth certificate</li>
+    <li>Two passport photos</li>
+    <li>Academic records</li>
+    <ul>
+        <li>Transcript</li>
+        <li>Transfer certificate</li></i>
+    </ul>
+</ul>
+<a href="registration_form.pdf">Download Registartion Form (PDF)</a>
+</br>
+<h3>Form Field Definitions</h3>
+    <dl>
+        <dt><b>Email:</b></dt>
+        <dd>Student's active email address</dd>
+        <dt><b>Grade:</b></dt>
+        <dd>Grade percentage from 0 to 100</dd>
+        <dt><b>Enrollment Date:</b></dt>
+        <dd>Date when student will begin classes</dd>
+    </dl>
+
+    <a href="#">Privacy Policy</a>
+
+    <footer><a href="#top">Back to top</a></footer>
+    </form>
+</body>
+</html>

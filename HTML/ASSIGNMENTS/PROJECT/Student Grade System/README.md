@@ -1,0 +1,2 @@
+#Student Grade Management System
+A simple 4-page HTML website built in 2-3 days with no CSS or JavaScript. Teachers can view student grades in tables, add new students using forms, and see course lists. Pages: home dashboard, student table, registration form, course lists. Uses Git/GitHub. Open index.html in a browser to run.
