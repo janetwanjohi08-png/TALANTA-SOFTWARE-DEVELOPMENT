@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:navy;
+    color:white;
+    padding:15px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+}
+
+.hero{
+    text-align:left;
+    padding:50px;
+    background:#f2f2f2;
+}
+
+.btn{
+    margin-top:25px;
+    padding:10px;
+    border: solid 5px;
+
+    
+}
+
+.projects{
+    display:grid;
+    grid-template-columns: 3;
+    padding:20px;
+}
+
+.project{
+    background:beige;
+    padding:30px;
+    text-align:center;
+}
+
+@media (max-width:599px){
+    nav{
+        margin:0;
+    }
+    .project{
+        grid-template-columns:1;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .project{
+        grid-template-columns:2;
+    }
+}
+@media (min-width:901px){
+    .project{
+        grid-template-columns:3;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>My Portfolio</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Portfolio website</h1>
+        <p>Welcome to my portfolio website.</p>
+    </br>
+        <a href="#" class="btn">View projects</a>
+    </section>
+
+    <section class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Restaurant Website</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Wanderlust Adventures</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Student Grade System</p>
+        </div>
+    </section>
+
+</body>
+</html>
