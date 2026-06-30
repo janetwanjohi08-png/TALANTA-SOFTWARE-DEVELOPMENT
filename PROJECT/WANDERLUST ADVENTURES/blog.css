@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+.Logo{
+    height:70px;
+    Width:70px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.hero{
+    padding: 1rem 1rem;
+}
+nav{
+    background-color: #760031;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.navlinks{
+color: #ffffff;
+font-size: 18px ;
+text-decoration: none;
+}
+.navlinks:hover{
+text-decoration: underline;
+color: #f8ebab;
+}
+h2{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.3;
+margin-top: 40px;
+font-size: 2.1rem;
+}
+img{
+    width: 40%;
+    height: 30%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: justify;
+    font-size:1.1rem ;
+}
