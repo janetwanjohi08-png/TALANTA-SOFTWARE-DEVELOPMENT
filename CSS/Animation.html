@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .btnn{
+    background-color: #3b82f6;
+    color: #fff;
+    transition: background-color 0.3s ease-in, color 0.2s linear;
+    padding: 15px 20px;
+}
+.btnn:hover{
+    background-color: #1d4ea8;
+    color: #f8fafc;
+}  
+.center-medal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    background-color: #ff0000;
+}
+.card1{
+    background-color: #00ff00;
+    height: 300px;
+    width: 300px;
+    transform: scale(1);
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.card1:hover{
+    transform: scale(0.5);
+}
+.rotate{
+    height: 400px;
+    width: 400px;
+    transition: transform 0.5s ease;
+}
+.rotate:hover{
+    transform: skew(15deg);
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #349bd3;
+    border-radius: 8px;
+    animation: slideandfade 1.25 ease-in-out forwards;
+}
+    @keyframes slideAndFade{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <a href="#" class="btn">Animation</a>
+    <div class="center-medal">
+
+    </div>
+    <div class="card"></div>
+    <div>
+    </br>
+        <img src="/PROJECT/WEB DEV DUO CHALLENGE/Image/Janet.jpg" class="rotate">
+    </div>
+    <marquee>Animation Transformations</marquee>
+</br>
+<div class="box">
+
+</div>
+<div>
+    <h1>Bootstrap practice</h1>
+    <h2>Bootstrap Demo <span class="badge text-bg-secondary">New arrival</span></h2>
+    <button type="button" class="btn btn-warning">Warning</button>
+</div>
+</br>
+</br>
+    <div class="card" style="width: 18rem;">
+        <img src="/PROJECT/WEB DEV DUO CHALLENGE/Image/Janet.jpg" class="card-img-top" alt="My profile picture">
+        <div class="card-body">
+            <h5 class="card-title">My Avatar</h5>
+            <p class="card-text">This is an image of my avatar</p>
+            <a href="#" class="btn btn-primary">Hire me</a>     
+        </div>
+    </div>
+</body>
+</html>
